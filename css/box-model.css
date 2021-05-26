@@ -1,0 +1,32 @@
+.content{
+    height: 100px;
+    /*width: 100px;*/
+    background-color: purple;
+    color: white;
+}
+.padding{
+    width: 100px;
+    /*box-sizing: border-box;*/
+    padding: 10px;  /* 10px from all side*/
+
+    padding-top: 20px;
+    padding-bottom: 30px;
+    /*       TB    RL*/
+    padding: 40px  20px;
+    background-color: rgb(205, 214, 214);
+}
+
+.border{
+    border: 5px solid blue;
+    border-style: dashed;
+
+}
+
+.margin{
+    margin: 10px;
+    background-color: cadetblue;
+    color: coral;
+
+    margin: 10px 40px 10px 60px;
+
+}

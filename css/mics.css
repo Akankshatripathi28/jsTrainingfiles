@@ -1,0 +1,22 @@
+.container{
+    height: 100px;
+    width: 100px;
+}
+.bg-purple{
+    background-color: purple;
+}
+.border-radius{
+    border-radius: 5px;
+}
+.border-shadow{
+    box-shadow: 10px 15px 15px 5px red;
+}
+.psuedo{
+    background-color: red;
+}
+.psuedo:hover{
+    background-color: green;
+}
+.psuedo:active{
+    background-color: darkolivegreen;
+}

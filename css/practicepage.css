@@ -1,0 +1,18 @@
+/*Box has no width set ans 20px of padding*/
+.content{
+    height: 100px;
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 5px solid cornflowerblue;
+    color: white;
+    background-color: black;
+
+}
+/*Box has  width set as 100% and 20px of padding*/
+.container{
+    padding: 20px;
+    width: 100%;
+    border: 10px dashed rgb(42, 165, 108);
+    background-color: black;
+    color: blanchedalmond;
+}

@@ -1,0 +1,18 @@
+#main-header{
+    color: brown;
+}
+
+.container{
+    background-color: burlywood;
+}
+#secondary-container{
+
+}
+
+/*tagmanes have the lowest specificity*/
+p{
+
+}
+
+/*classes have the medium specificity*/
+/*ids have the higest specification*/

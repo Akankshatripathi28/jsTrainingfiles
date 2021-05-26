@@ -1,0 +1,54 @@
+body{
+    padding: 0%;
+    margin: 0%;
+}
+.border{
+    border-bottom:thin solid teal ;
+}
+.page-header{
+    padding: 5px;
+    border-bottom:thin solid teal ;   
+    box-shadow:10px 5px 5px 5px currentColor;
+    color: teal;
+
+}
+
+.main-content .about-me{
+     
+    color: rgb(3, 3, 3);
+}
+.main-content .about-me:hover{
+    background-color: teal;
+    color: white;
+    
+    
+}
+.main-content .about-me:hover{
+    transition-duration: 1s;
+}
+.secondary-content{
+    font-style: normal;
+}
+
+.secondary-content:hover{
+    background-color: teal;
+    color: white;
+    transition-duration: 1s;
+   
+}
+
+.language-content{
+    color: black;
+}
+.language-content:hover{
+    background-color: teal;
+    color: white;
+    transition-duration: 1s;
+}
+.ending-page{
+    background-color: black;
+    color: blanchedalmond;
+}
+.ending-page:hover{
+    transform: scale(0.9);
+}
