@@ -1,0 +1,28 @@
+
+.size{
+    float: left;
+    height: 100px;
+    width: 100px;
+    border: solid 1px black;
+}
+.column1{
+    
+    
+    background-color: yellow;
+}
+.column2{
+    
+    
+    background-color: orange;
+}
+.column3{
+    
+    
+    background-color: red;
+}
+
+
+.row{
+    display: inline;
+   
+}

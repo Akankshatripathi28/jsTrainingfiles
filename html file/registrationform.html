@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration page</title>
+     <style>
+         body{
+             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+            ;
+            }
+            .container{
+             padding: 50px;
+
+            }
+
+            input[type=text],input[type=password],input[type=email]{
+                width: 50%;
+                padding: 15px;
+                margin: 5px 0 22px 0;
+                display: inline-block;
+                background-color: #f1f1f1;
+                border: none;
+            }
+            section{
+                padding: 10px 0;
+            }
+            .regButton{
+                background-color: #4CAF50;
+                padding: 16px 20px;
+                margin: 8px 0;
+                border:none;
+                cursor: pointer;
+                color: white;
+
+            }
+     </style>
+</head>
+<body style="background-color:rgb(153, 187, 189)">
+    <header>Registration form</header>
+    <main>
+        <section>
+            <form action="">
+                <fieldset class="container">
+                    <legend>Personal Details</legend>
+                    
+                    <label for="name">Full Name:</label>
+                    <input id="name" type="text" placeholder="Enter you name">
+                    <br>
+
+
+                    
+                    <label for="email">Email:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input id="email" type="email" placeholder="abc@gmail.com">
+                    <br>
+
+                    
+                    <label for="gender">Gender:</label><br>
+                    <input id="male" type="radio" name="gender" value="male">
+                    <label for="male">male</label>
+                    <input id="female" type="radio" name="gender" value="female">
+                    <label for="female">female</label>
+                    <br><br>
+
+                    
+                    
+                        <label for="date">DOB:</label>
+                        <input id="date" type="date">
+                        <br><br>
+
+                    
+                        <label for="course">course:</label>
+                        <select  id="course">
+                            <option value=""></option>
+                            <option value="BCA">BCA</option>
+                            <option value="BBA">BBA</option>
+                            <option value="B.tech">B.tech</option>
+                            <option value="MBA">MBA</option>
+                        </select>
+                        <br><br>
+
+                    
+                        <label for="phone">phone:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <input type="text" name="phone" size="10" placeholder="phone no.">
+                         <br>
+
+                    
+                        <label for="password">password:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <input type="password" name="password" id="password" placeholder="Enter password"><br>
+
+                        <label for="retype">Re-type pass:</label>
+                        <input type="password" name="retype" id="retype" placeholder="confirm password"><br>
+
+                    <br>
+                    <input type="button" class="regButton" value="Submit">
+
+
+                </fieldset>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,25 @@
+.parent{
+    position: relative;
+    height: 200vh;
+    background-color: royalblue;
+
+}
+.one{
+    /*relative allows you to chnage the top bottom left right position*/
+    position: relative;
+    /*dont use top left right bottom with relative*/
+    top: 10px;
+    background-color: red;
+
+}
+.two{
+    background-color: palevioletred;
+    /*used to stick something at a particular position*/
+    position: absolute;
+
+}
+.three{
+    background-color: purple;
+    position: fixed
+
+}

@@ -1,0 +1,24 @@
+.div1{
+    /*inline display with other values*/
+    display: inline;
+    background-color: red;
+}
+.span1{
+    
+    background-color: blue;
+}
+.img1{
+    /*in inline-block we can assign both width and the height*/
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+
+}
+.span2{
+    /*it display the element in seprate block*/
+    display: block;
+    background-color: purple;
+}
+.div2{
+    background-color: palevioletred;
+}
